@@ -381,7 +381,7 @@ class MealDetailActivity:YouTubeBaseActivity(), YouTubePlayer.OnInitializedListe
             row.addView(text1)
             ingredient.addView(row)
         }
-        youtube.initialize("AIzaSyBjhcODqNmcLRJ453VsXZGbpEwj5rXoHzg",this)
+        youtube.initialize("",this)
 
         fav_button.setOnClickListener{
             if(meal.isFavorite) {
